@@ -1,0 +1,813 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forgotten Armory: Chinese Dynasties - Vintage Story Mod DB</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/web/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/web/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/web/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/web/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/web/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" type="text/css">
+
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/css/chosen.min.css" rel="stylesheet" type="text/css">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/css/dialog.css" rel="stylesheet" type="text/css">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/js/chosen/chosen.min.css" rel="stylesheet" type="text/css">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/css/datepicker.min.css" rel="stylesheet" type="text/css">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/js/tinymce/plugins/spoiler/css/spoiler.css?v=2" rel="stylesheet" type="text/css">
+
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/js/tinymce/skins/ui/oxide/skin.mobile.min.css" as="style">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/js/tinymce/skins/ui/oxide/content.mobile.min.css" as="style">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/js/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff?8x92w3" as="font">
+
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/js/tinymce/skins/ui/oxide/skin.min.css" as="style">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/js/tinymce/skins/ui/oxide/content.min.css" as="style">
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/css/editor_content.css?ver=4" as="style">
+
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="/web/css/style.css?version=88" rel="stylesheet" type="text/css">
+
+	<link rel="dns-prefetch" href="https://moddbcdn.vintagestory.at" />
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/jquery-1.11.1.min.js"></script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/chosen/chosen.jquery.min.js?v=3"></script>
+	<meta content="Forgotten Armory: Chinese Dynasties" property="og:title" />
+<meta content="
+&nbsp;
+&nbsp;
+"Before the Great Falling. Before corruption spread like a poison. Before the traitors and hopeless legions marched.There was an era of prosperity and might &mdash; when master artisans tempered blades worthy of emperors, when warriors grew heavy on silver and crimson victories, when women spun silken webs of intrigue, and when lords commanded with the authority of Heaven itself.
+Battles thundered across the land in the name of the Throne, summoning the boldest hearts to seize honor &mdash; or vanish into nameless dust.
+Every smith, every craftsman, every laborer poured their spirit into creation. The most gifted among them rose near the rank of sages, devoting their entire existence to the perfection of their sacred art.
+In that radiant age, armors of peerless strength were born, forged with secrets that only the Grandmasters of the forge could summon forth.
+But now&hellip; all is swallowed by time.What lingers are but a few forgotten scrolls, guarded by generations scarred with sorrow, now crumbling in silence upon dust-laden shelves and within the hollowed ruins of forsaken citadels.Only fragments remain &mdash; scattered like stars across a broken world, waiting for one with courage to unearth them, claim them, and restore their brilliance.
+The Celestial Forge of perfection awaits you &mdash; step forward, and let your hands rekindle the eternal flame that shapes destiny."
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This series of mods aims to introduce historically inspired armors into the game.This one is dedicated to the medieval China, specificaly introduces armor of Song, and Ming dynasty.
+Armors added by this mod are somewhat improved versions of the vanilla items, which serve as the base for crafting these modded armors.Chineese military was known for their archery skills, the armors are made in this image.
+&nbsp;
+You will, as always need a specific schematic, which can be found in newly generated ruins or may appear at the Treasure Trader (Useful traders compatible) once he restocks after you install this mod.Due to the rarity of these schematics, their price won&rsquo;t exactly be a bargain.
+&nbsp;
+Anyway, as always if some errors pop up somewhere &mdash; let me know if you find some.I&rsquo;m aware that the recipes are VERY expensive, and that&rsquo;s intentional &mdash; these armors represent very late-game technology. On the bright side, once crafted, the armor is easy to maintain.
+All feedback is welcome too, and the availability of this armor in survival mode can be rebalanced in the future if there&rsquo;s enough pushback.
+Compatibilities:Combat OverhaulUseful Traders
+
+This mod was made thanks to generous Comisson made by PrincessCrystal! She was so generous she let me publish this for all of us to enjoy! Massive credit to her, and many thanks for feedback during creation of this mod!
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Roadmap
+(without any commitment and subject to change)
+&nbsp;
+&nbsp;
+
+
+
+
+Greenwich style (plate armorvariation) - DONE
+
+
+Gothic style (plate armor variation) - DONE
+
+Templar style (plate, scale, mail armor variation) - DONE
+
+
+Landzknecht style (brigandine armor variation) - DONE
+Hussar style (brigandine, plate armor variation) - DONE
+Jousting style (plate armor variation)
+Planned
+
+
+
+Maximilian armor style (plate armor variation)
+Planned
+
+Conquistador style (Brigandine armor variation)
+Planned
+
+English longbowmen (mail / leather variations)
+Planned
+
+
+
+Hussites (mail / leather variarions)
+Planned
+
+Armor styles outside of European / Shields / Optimisation
+and More
+
+
+
+... and anything that comes to my mind during development or maybe is suggested by you guys :-)&nbsp;speaking of
+Mods made by commision and generously shared with yall
+(not every one is going to be shared)
+
+
+
+Chineese dynasties style (scale armor variations)
+Viking style (plate armor variations for now)
+... and more?
+
+
+
+Thanks to
+PrincessCrystal for the commisionDeanBro&nbsp;for the uk translationJonR&nbsp;for help with the native Combat Overhaul compatibilityArcadria for help with patching the traders to buy back the schematics
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Chronicle of The Great Jianyu
+Jianyu:Master Liang Shen&hellip; every time I see these armors, I feel they carry something more than iron. The Song lamella flows like water, while the Ming plates stand firm like mountains. How can armor hold such spirit?Liang Shen:(smiles, his voice gentle yet steady, like the rhythm of the forge)Spirit does not dwell in the iron, Jianyu. It is carried there by the hands that shape it. Each plate, each knot of cord, each polish of the surface is more than labor&mdash;it is devotion. But remember this: what you see here is not mine alone.Jianyu:Not yours alone? But Master&hellip; your work is beyond compare!Liang Shen:(laughs softly, shaking his head)A river flows because many streams feed it. My hands would falter if not for the guidance of other masters. Eldred, for instance&mdash;his eyes are sharper than any blade. He sees flaws where others see perfection. His criticism is not cruelty, but a gift. And the guilds themselves, by standing together, sharpen us all. Without them, one smith is just a hammer in the dark. With them, we become the bell that rings clear across kingdoms.Jianyu:So even a master bows to other masters?Liang Shen:To bow is not shame&mdash;it is strength. The guilds hold us to standards higher than our own pride. Alone, we might grow careless, but among brothers of the craft, we are reminded that excellence is born from honesty, even when it stings. That is why what you see here is polished not only by fire, but by fellowship.Jianyu:I see&hellip; then when I work, I do not carry only my hammer, but also the wisdom of the guild, and of masters like Eldred.Liang Shen:Exactly, Jianyu. Every stroke you make carries voices&mdash;those who taught you, those who corrected you, those who stood beside you.Jianyu:(his eyes shining with understanding)Then I will work harder, Master. Not just for myself, but for all who stand with us.Liang Shen:(nods, his expression warm and proud)Good. Remember&mdash;true honor is not in claiming credit, but in building something greater than yourself. The guilds remind us of that. And if you hold to this spirit, one day your work will not only protect bodies, but also preserve the unity that keeps us strong.Jianyu:But still, I am surprised. You speak so openly of the help of others, as if your own work were not already legendary. Why would a man of your mastery reveal such&hellip; weakness?Liang Shen:(smiles gently, eyes glimmering like sparks in the forge)Weakness, you say? Tell me, Jianyu&mdash;why do you think Eldred&rsquo;s Gothic armor moves so lightly, so swiftly, as though it were silk instead of steel?Jianyu:(blinks, caught off guard)Because&hellip; because Eldred is a genius?Liang Shen:(chuckles, stroking his beard)A genius, yes, but also a man who listened&mdash;though he would never admit it. He sharpened his art upon the words of others, mine also. His armor dances because it carries not only his pride, but the whispers of countless guild debates and endless critiques, mine included.Jianyu:So even the greatest smiths&hellip; carry the voices of others inside their work?Liang Shen:Of course. Do not mistake silence for solitude. Our guilds, our fellow masters, even stern excentric critics like Eldred&mdash;all of them strike their hammers through others in one way or other.Jianyu:To admit such things openly, Master&hellip; does it not make you seem less?Liang Shen:(leans closer, his tone warm, yet firm)No, boy. It makes me more. Strength without humility is brittle, like steel not tempered. Only by bowing to fire and water does iron gain its true resilience. So too with men.Jianyu:I think I understand now. To forge is not to stand alone&hellip; but to stand among many, each lending their hand unseen.Liang Shen:(nods approvingly)Well said. Remember this, Jianyu: a proud smith may craft armor, but a humble smith crafts legacy." property="og:description" />
+<meta name="twitter:card" content="summary_large_image">
+<meta content="https://moddbcdn.vintagestory.at/modicon_b092bacc022b19900072f1521c0c7814.png" property="og:image" />
+<meta content="#91A357" name="theme-color" />
+</head>
+
+<body class="">
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2">try{if(+window.localStorage.getItem('opaque-desc'))document.body.classList.add('opaque-desc')}catch{}</script>
+	<a name="top"></a>
+	
+	<div class="content">
+		<a href="/" class="logo"><img src="/web/img/vsmoddb-logo-s.png" align="left"></a>
+		
+		<nav id="main-nav">
+			<a href="/home">Home</a>
+			<a href="/list/mod">All Mods</a>
+						<span class="flex-spacer" style="max-width: 6em; flex-grow: .5"></span>
+			<a class="external" href="https://wiki.vintagestory.at/Troubleshooting_Mods" target="_blank">Mod Troubleshooting</a>
+
+			<span class="flex-spacer"></span>
+
+							<a href="/login" class="strikethrough-when-readonly"><img src="/web/img/login.png"><span>Log in</span></a>
+					</nav>
+
+		<div id="message-container"></div>
+
+		<main class="innercontent padded">
+
+
+<div class="edit-asset mod-published">
+	<h2>
+		<span>
+			<a href="/list/mod">Mods</a>
+		</span> /
+		<span>
+			Forgotten Armory: Chinese Dynasties		</span>
+	</h2>
+
+	
+	<input class="tab-trigger" id="tab-description" type="radio" name="tab" autocomplete="off">
+	<input class="tab-trigger" id="tab-files" type="radio" name="tab" autocomplete="off">
+
+	<ul class="tabs no-mark">
+		<li><label for="tab-description" onclick="location.hash = 'tab-description'">Description</label></li>
+		<li><label for="tab-files" onclick="location.hash = 'tab-files'">Files</label></li>
+					<li><a class="external" rel="external nofollow" target="_blank" href="https://discord.com/channels/302152934249070593/1390735680136548392">Homepage</a></li>
+													<li><a class="external" rel="external nofollow" target="_blank" href="https://ko-fi.com/aladarcz">Donate</a></li>
+			</ul>
+
+	<div class="tab-container">
+		<div class="tab-content description">
+			<script nonce="0cdd6010ec0ceef29956a5d70cf451b2">if(location.hash !== '#tab-files') document.getElementById('tab-description').checked = true;</script>
+			<div style="float: right; margin-bottom: 1em;">
+							</div>
+
+			<div class="imageslideshow fotorama" data-max-width="min(800px, 100%)" data-max-height="450" data-autoplay="5000" data-nav="thumbs" data-allowfullscreen="true">
+													<img src="https://moddbcdn.vintagestory.at/Decmain_pic2_645e92e858daa184459149ff2d888fa4.png">
+									<img src="https://moddbcdn.vintagestory.at/Decmain_pic1_5c0c5fdc36512860c2dc66fa15d5bf12.png">
+									<img src="https://moddbcdn.vintagestory.at/Selfie1_bb345036bbe87c1810c250a7a05059dd.png">
+									<img src="https://moddbcdn.vintagestory.at/Selfie2_b5cd5952de19ef96a00e912c95600802.png">
+									<img src="https://moddbcdn.vintagestory.at/Var_pic_67c085970b7ff559717dcffbe97d3f33.png">
+									<img src="https://moddbcdn.vintagestory.at/Var_pic2_a004e4f050406b0224f52f6e215a88ff.png">
+									<img src="https://moddbcdn.vintagestory.at/Stats2_4aed4999f1562c978a9ce22a156867f7.png">
+									<img src="https://moddbcdn.vintagestory.at/Headpiece_recipe1_d85e7089b1efffb2f0f69bfae44e626b.png">
+									<img src="https://moddbcdn.vintagestory.at/Chestplate_recipe1_c553c9bbcfd577950203071947b78b08.png">
+									<img src="https://moddbcdn.vintagestory.at/Var_pic3_645454a4bd8e480c77086f63e63fc2d6.png">
+									<img src="https://moddbcdn.vintagestory.at/Stats1_b74f07ff41bb124a3bd5b267d7ca2752.png">
+											</div>
+
+			<div class="infobox">
+				<span class="text-weak">Tags:</span>
+									<a href="/list/mod/?tagids[]=253" class="tag" style="background-color:#92c96aff"
+						title="Clothing">#Clothing</a>
+									<a href="/list/mod/?tagids[]=7" class="tag" style="background-color:#92c96aff"
+						title="Cosmetics">#Cosmetics</a>
+									<a href="/list/mod/?tagids[]=10" class="tag" style="background-color:#92c96aff"
+						title="Other">#Other</a>
+								<br>
+
+									<span class="text-weak">Author:</span> <a class="username" href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a>
+				
+				<br>
+
+				<span class="text-weak">Side:</span> Both<br>
+				<span class="text-weak">Created:</span> <span title="Sep 14th 2025, 15:13:56">Sep 14th at 3:13 PM</span><br>
+				<span class="text-weak">Last modified:</span> <span title="Nov 7th 2025, 20:09:32">18 hours ago</span><br>
+				<span class="text-weak">Downloads:</span> 29034<br>
+				<a href="/login"
+					class="interactbox off">
+					<span class="off"><i class="bx bx-star"></i>Follow</span>
+					<span class="on"><i class="bx bxs-star"></i>Unfollow</span>
+					<span class="count">255</span>
+				</a>
+				<p>
+											<strong>
+							Recommended							download (for Vintage Story 1.21.0, 1.21.1 and 1.21.2 - 1.21.5):</strong><br>
+						
+						<a class="button square ico-button mod-dl" href="/download/63693/Forgotten+Armory_Chinese+Dynasties+v1.2.3.zip">Forgotten Armory_Chinese Dynasties v1.2.3.zip</a>
+						&nbsp;<a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.2.3" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a>																				</p>
+			</div>
+
+			<div style="clear:both;"><br></div>
+			<p style="text-align: center;" data-start="203" data-end="586"><span style="color: #18a085;"><a style="color: #000000;" href="https://ko-fi.com/aladarcz"><img style="float: right;" src="https://storage.ko-fi.com/cdn/kofi4.png?v=6" alt="image" width="187" height="47" /></a></span></p>
+<p style="text-align: center;" data-start="203" data-end="586">&nbsp;</p>
+<p style="text-align: center;" data-start="203" data-end="586">&nbsp;</p>
+<p style="text-align: center;" data-start="203" data-end="586"><span style="color: #18a085;"><em>"Before the Great Falling. Before corruption spread like a poison. Before the traitors and hopeless legions marched.</em></span><br data-start="321" data-end="324" /><span style="color: #18a085;"><em>There was an era of prosperity and might &mdash; when master artisans tempered blades worthy of emperors, when warriors grew heavy on silver and crimson victories, when women spun silken webs of intrigue, and when lords commanded with the authority of Heaven itself.</em></span></p>
+<p style="text-align: center;" data-start="588" data-end="726"><span style="color: #18a085;"><em>Battles thundered across the land in the name of the Throne, summoning the boldest hearts to seize honor &mdash; or vanish into nameless dust.</em></span></p>
+<p style="text-align: center;" data-start="728" data-end="935"><span style="color: #18a085;"><em>Every smith, every craftsman, every laborer poured their spirit into creation. The most gifted among them rose near the rank of sages, devoting their entire existence to the perfection of their sacred art.</em></span></p>
+<p style="text-align: center;" data-start="937" data-end="1078"><span style="color: #18a085;"><em>In that radiant age, armors of peerless strength were born, forged with secrets that only the Grandmasters of the forge could summon forth.</em></span></p>
+<p style="text-align: center;" data-start="1080" data-end="1467"><span style="color: #18a085;"><em>But now&hellip; all is swallowed by time.</em></span><br data-start="1114" data-end="1117" /><span style="color: #18a085;"><em>What lingers are but a few forgotten scrolls, guarded by generations scarred with sorrow, now crumbling in silence upon dust-laden shelves and within the hollowed ruins of forsaken citadels.</em></span><br data-start="1307" data-end="1310" /><span style="color: #18a085;"><em>Only fragments remain &mdash; scattered like stars across a broken world, waiting for one with courage to unearth them, claim them, and restore their brilliance.</em></span></p>
+<p style="text-align: center;" data-start="1469" data-end="1601"><span style="color: #18a085;"><em>The Celestial Forge of perfection awaits you &mdash; step forward, and let your hands rekindle the eternal flame that shapes destiny."</em></span></p>
+<p style="text-align: center;" data-start="460" data-end="592">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p data-start="132" data-end="299">This series of mods aims to introduce historically inspired armors into the game.<br data-start="213" data-end="216" />This one is dedicated to the medieval China, specificaly introduces armor of Song, and Ming dynasty.<br /><br /></p>
+<p data-start="103" data-end="229">Armors added by this mod are somewhat improved versions of the vanilla items, which serve as the base for crafting these modded armors.<br />Chineese military was known for their archery skills, the armors are made in this image.</p>
+<p data-start="231" data-end="489">&nbsp;</p>
+<p data-start="231" data-end="489">You will, as always need a specific schematic, which can be found in newly generated ruins or may appear at the Treasure Trader (Useful traders compatible) once he restocks after you install this mod.<br data-start="408" data-end="411" />Due to the rarity of these schematics, their price won&rsquo;t exactly be a bargain.</p>
+<p data-start="132" data-end="299">&nbsp;</p>
+<p data-start="147" data-end="415">Anyway, as always if some errors pop up somewhere &mdash; let me know if you find some.<br data-start="226" data-end="229" />I&rsquo;m aware that the recipes are VERY expensive, and that&rsquo;s intentional &mdash; these armors represent very late-game technology. On the bright side, once crafted, the armor is easy to maintain.</p>
+<p data-start="417" data-end="564">All feedback is welcome too, and the availability of this armor in survival mode can be rebalanced in the future if there&rsquo;s enough pushback.</p>
+<h4 data-start="417" data-end="564"><strong>Compatibilities:</strong><br />Combat Overhaul<br />Useful Traders</h4>
+<p data-start="417" data-end="564"><br /><br /></p>
+<h2 data-start="566" data-end="581"><span style="color: #ecf0f1; background-color: #e74c3c;">This mod was made thanks to generous Comisson made by PrincessCrystal!</span> She was so generous she let me publish this for all of us to enjoy! Massive credit to her, and many thanks for feedback during creation of this mod!</h2>
+<p data-start="566" data-end="581">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<h3 style="text-align: center;" data-start="566" data-end="581">Roadmap</h3>
+<h6 style="text-align: center;" data-start="566" data-end="581">(without any commitment and subject to change)</h6>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;" data-start="566" data-end="581">&nbsp;</p>
+<table style="border-collapse: collapse; width: 100%; border-style: double; height: 541px;" border="1">
+<tbody>
+<tr style="height: 270px;">
+<td style="width: 33.3333%; text-align: center; height: 270px;">
+<p><span style="color: #18a085;"><strong><a style="color: #18a085;" href="https://mods.vintagestory.at/show/mod/25550">Greenwich style (plate armor</a><a style="color: #18a085;" href="https://mods.vintagestory.at/show/mod/25550">variation) - DONE</a></strong></span><br /><br /><a href="https://mods.vintagestory.at/show/mod/25550"><img style="text-align: center; display: block; margin-left: auto; margin-right: auto;" src="https://moddbcdn.vintagestory.at/MODICON_Greenwich2_e332f2a156095cc29114833b6f6da911.png" alt="" width="227" height="227" /></a></p>
+</td>
+<td style="width: 33.3333%; text-align: center; height: 270px;">
+<p><span style="margin-right: auto; margin-left: auto;"><span style="color: #34495e;"><strong><br /><a style="color: #34495e;" href="https://mods.vintagestory.at/show/mod/25580">Gothic style (plate armor variation) - DONE</a></strong></span><br /><br /></span><a href="https://mods.vintagestory.at/show/mod/25580"><span style="margin-right: auto; margin-left: auto;"><img src="https://moddbcdn.vintagestory.at/MODICON_Gothic2_1e5dd4a0c9fb0f8433528ef971f428b9.png" alt="" width="227" height="227" /></span></a></p>
+</td>
+<td style="width: 33.3333%; height: 270px; text-align: center;"><span style="color: #bdc3c7;"><strong><br /><a style="color: #bdc3c7;" href="https://mods.vintagestory.at/show/mod/26077"><span style="color: #e74c3c;">Templar style (plate, scale, mail armor variation) - DONE</span></a></strong></span><br /><br /><a href="https://mods.vintagestory.at/show/mod/26077"><img src="https://moddbcdn.vintagestory.at/modlogo_6cf81aedcc064a9ac05bebbb37fddb69.png" alt="" width="227" height="227" /></a></td>
+</tr>
+<tr style="height: 251px;">
+<td style="width: 33.3333%; text-align: center; height: 251px;"><span style="color: #2880b9;"><strong><br /><a style="color: #2880b9;" href="https://mods.vintagestory.at/show/mod/27605">Landzknecht style (brigandine armor variation) - DONE</a><br /></strong></span><br /><a href="https://mods.vintagestory.at/show/mod/27605"><img src="https://moddbcdn.vintagestory.at/MODICON_Landsknecht2_cfed319cbaf668be8f655780ebdc6797.png" alt="" width="227" height="227" /></a></td>
+<td style="width: 33.3333%; text-align: center; height: 251px;"><strong><span style="color: #d35400;"><a style="color: #d35400;" href="https://mods.vintagestory.at/show/mod/31411">Hussar style (brigandine, plate armor variation) - DONE</a></span></strong><br /><br /><a href="https://mods.vintagestory.at/show/mod/31411"><img src="https://moddbcdn.vintagestory.at/modicon_9af45162f46c07e29cebcd50040bf651.png" alt="" width="227" height="227" /></a></td>
+<td style="width: 33.3333%; text-align: center; height: 251px;">Jousting style (plate armor variation)<br /><br />
+<h2><span style="color: #7e8c8d;"><em>Planned</em></span></h2>
+</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 33.3333%; text-align: center; height: 20px;">Maximilian armor style (plate armor variation)<br /><br />
+<h2><span style="color: #7e8c8d;"><em>Planned</em></span></h2>
+</td>
+<td style="width: 33.3333%; text-align: center; height: 20px;">Conquistador style (Brigandine armor variation)<br /><br />
+<h2><span style="color: #7e8c8d;"><em>Planned</em></span></h2>
+</td>
+<td style="width: 33.3333%; text-align: center; height: 20px;">English longbowmen (mail / leather variations)<br /><br />
+<h2><span style="color: #7e8c8d;"><em>Planned</em></span></h2>
+</td>
+</tr>
+<tr>
+<td style="width: 33.3333%; text-align: center;">Hussites (mail / leather variarions)<br /><br />
+<h2><span style="color: #7e8c8d;"><em>Planned</em></span></h2>
+</td>
+<td style="width: 33.3333%; text-align: center;">Armor styles outside of European / Shields / Optimisation</td>
+<td style="width: 33.3333%; text-align: center;">and More</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;" data-start="566" data-end="581"><br /><br /><br /><br /><br /><br />... and anything that comes to my mind during development or maybe is suggested by you guys :-)&nbsp;<br />speaking of</p>
+<h3 style="text-align: center;" data-start="566" data-end="581">Mods made by commision and generously shared with yall</h3>
+<h6 style="text-align: center;" data-start="566" data-end="581">(not every one is going to be shared)</h6>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%; text-align: center;"><br /><a href="https://mods.vintagestory.at/show/mod/30299"><span style="color: #e67e23;"><strong>Chineese dynasties style (scale armor variations)</strong></span></a><br /><br /><a href="https://mods.vintagestory.at/show/mod/30299"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://moddbcdn.vintagestory.at/modicon_b092bacc022b19900072f1521c0c7814.png" alt="" width="227" height="227" /></a></td>
+<td style="width: 33.3333%; text-align: center;"><a href="https://mods.vintagestory.at/show/mod/34041"><strong><span style="color: #8e44ad;">Viking style (plate armor variations for now)</span></strong></a><br /><br /><a href="https://mods.vintagestory.at/show/mod/34041"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://moddbcdn.vintagestory.at/MODICON_Viking_d42c94db449fae73d1e1542fc7b71a14.png" alt="" width="227" height="227" /></a></td>
+<td style="width: 33.3333%; text-align: center;"><span style="color: #7e8c8d;">... and more?</span></td>
+</tr>
+</tbody>
+</table>
+<h2 style="text-align: center;" data-start="566" data-end="581">Thanks to</h2>
+<h2 style="text-align: center;" data-start="566" data-end="581"><span style="background-color: #34495e; color: #ecf0f1;">PrincessCrystal</span> for the commision<br /><span style="background-color: #e67e23;">DeanBro</span>&nbsp;for the uk translation<br /><span style="background-color: #27ae60;">JonR&nbsp;for</span> help with the native Combat Overhaul compatibility<br /><span style="background-color: #8e44ad; color: #ecf0f1;">Arcadria</span> for help with patching the traders to buy back the schematics</h2>
+<p data-start="566" data-end="581">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<h3 style="text-align: center;" data-start="566" data-end="581">Chronicle of The Great Jianyu<br /><br /></h3>
+<h6 data-start="179" data-end="404"><em><span style="color: #8e44ad;"><strong data-start="179" data-end="190">Jianyu:</strong></span></em><br data-start="190" data-end="193" /><em><span style="color: #8e44ad;">Master Liang Shen&hellip; every time I see these armors, <br />I feel they carry something more than iron. The Song lamella flows like water, <br />while the Ming plates stand firm like mountains. How can armor hold such spirit?</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="406" data-end="421">Liang Shen:</strong></span></em><br data-start="421" data-end="424" /><em><span style="color: #8e44ad;">(smiles, his voice gentle yet steady, like the rhythm of the forge)</span></em><em><span style="color: #8e44ad;"><br />Spirit does not dwell in the iron, Jianyu. It is carried there by the hands that shape it. <br />Each plate, each knot of cord, each polish of the surface is more than labor&mdash;it is devotion. <br />But remember this: what you see here is not mine alone.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="737" data-end="748">Jianyu:</strong></span></em><br data-start="748" data-end="751" /><em><span style="color: #8e44ad;">Not yours alone? But Master&hellip; your work is beyond compare!</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="812" data-end="827">Liang Shen:</strong></span></em><br data-start="827" data-end="830" /><em><span style="color: #8e44ad;">(laughs softly, shaking his head)</span></em><br data-start="863" data-end="866" /><em><span style="color: #8e44ad;">A river flows because many streams feed it. My hands would falter if not for the guidance of other masters. <br />Eldred, for instance&mdash;his eyes are sharper than any blade. He sees flaws where others see perfection. <br />His criticism is not cruelty, but a gift. And the guilds themselves, by standing together, sharpen us all. <br />Without them, one smith is just a hammer in the dark. With them, we become the bell that rings clear across kingdoms.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1303" data-end="1314">Jianyu:</strong></span></em><br data-start="1314" data-end="1317" /><em><span style="color: #8e44ad;">So even a master bows to other masters?</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1360" data-end="1375">Liang Shen:</strong></span></em><br data-start="1375" data-end="1378" /><em><span style="color: #8e44ad;">To bow is not shame&mdash;it is strength. The guilds hold us to standards higher than our own pride. <br />Alone, we might grow careless, but among brothers of the craft, we are reminded that excellence <br />is born from honesty, even when it stings. That is why what you see here is polished not only by fire, but by fellowship.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1693" data-end="1704">Jianyu:</strong></span></em><br data-start="1704" data-end="1707" /><em><span style="color: #8e44ad;">I see&hellip; then when I work, I do not carry only my hammer, but also the wisdom of the guild, and of masters like Eldred.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1828" data-end="1843">Liang Shen:</strong></span></em><br data-start="1843" data-end="1846" /><em><span style="color: #8e44ad;">Exactly, Jianyu. Every stroke you make carries voices&mdash;those who taught you, <br />those who corrected you, those who stood beside you.<br /></span></em><br /><em><span style="color: #8e44ad;"><strong data-start="2074" data-end="2085">Jianyu:</strong></span></em><br data-start="2085" data-end="2088" /><em><span style="color: #8e44ad;">(his eyes shining with understanding)</span></em><br data-start="2125" data-end="2128" /><em><span style="color: #8e44ad;">Then I will work harder, Master. Not just for myself, but for all who stand with us.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="2216" data-end="2231">Liang Shen:</strong></span></em><br data-start="2231" data-end="2234" /><em><span style="color: #8e44ad;">(nods, his expression warm and proud)</span></em><br data-start="2271" data-end="2274" /><em><span style="color: #8e44ad;">Good. Remember&mdash;true honor is not in claiming credit, but in building something greater than yourself. <br />The guilds remind us of that. And if you hold to this spirit, one day your work will not only <br />protect bodies, but also preserve the unity that keeps us strong.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="163" data-end="174">Jianyu:</strong></span></em><br data-start="174" data-end="177" /><em><span style="color: #8e44ad;">But still, I am surprised. You speak so openly of the help of others, <br />as if your own work were not already legendary. Why would a man of your mastery reveal such&hellip; weakness?</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="377" data-end="392">Liang Shen:</strong></span></em><br data-start="392" data-end="395" /><em><span style="color: #8e44ad;">(smiles gently, eyes glimmering like sparks in the forge)</span></em><br data-start="452" data-end="455" /><em><span style="color: #8e44ad;">Weakness, you say? Tell me, Jianyu&mdash;why do you think Eldred&rsquo;s Gothic armor <br />moves so lightly, so swiftly, as though it were silk instead of steel?</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="603" data-end="614">Jianyu:</strong></span></em><br data-start="614" data-end="617" /><em><span style="color: #8e44ad;">(blinks, caught off guard)</span></em><br data-start="643" data-end="646" /><em><span style="color: #8e44ad;">Because&hellip; because Eldred is a genius?</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="686" data-end="701">Liang Shen:</strong></span></em><br data-start="701" data-end="704" /><em><span style="color: #8e44ad;">(chuckles, stroking his beard)</span></em><br data-start="734" data-end="737" /><em><span style="color: #8e44ad;">A genius, yes, but also a man who listened&mdash;though he would never admit it. <br />He sharpened his art upon the words of others, mine also. His armor dances because <br />it carries not only his pride, but the whispers of countless guild debates and endless critiques, mine included.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1038" data-end="1049">Jianyu:</strong></span></em><br data-start="1049" data-end="1052" /><em><span style="color: #8e44ad;">So even the greatest smiths&hellip; carry the voices of others inside their work?</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1130" data-end="1145">Liang Shen:</strong></span></em><br data-start="1145" data-end="1148" /><em><span style="color: #8e44ad;">Of course. Do not mistake silence for solitude. Our guilds, our fellow masters, <br />even stern excentric critics like Eldred&mdash;all of them strike their hammers through others in one way or other.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1377" data-end="1388">Jianyu:</strong></span></em><br data-start="1388" data-end="1391" /><em><span style="color: #8e44ad;">To admit such things openly, Master&hellip; does it not make you seem less?</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1474" data-end="1489">Liang Shen:</strong></span></em><br data-start="1489" data-end="1492" /><em><span style="color: #8e44ad;">(leans closer, his tone warm, yet firm)</span></em><br data-start="1531" data-end="1534" /><em><span style="color: #8e44ad;">No, boy. It makes me more. Strength without humility is brittle, like steel not tempered. <br />Only by bowing to fire and water does iron gain its true resilience. So too with men.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1713" data-end="1724">Jianyu:</strong></span></em><br data-start="1724" data-end="1727" /><em><span style="color: #8e44ad;">I think I understand now. To forge is not to stand alone&hellip; <br />but to stand among many, each lending their hand unseen.</span></em><br /><br /><em><span style="color: #8e44ad;"><strong data-start="1845" data-end="1860">Liang Shen:</strong></span></em><br data-start="1860" data-end="1863" /><em><span style="color: #8e44ad;">(nods approvingly)</span></em><br data-start="1881" data-end="1884" /><em><span style="color: #8e44ad;">Well said. Remember this, Jianyu: a proud smith may craft armor, <br />but a humble smith crafts legacy.</span></em></h6>			<div style="clear:both;"></div>
+		</div>
+
+		<div class="tab-content files">
+			<script nonce="0cdd6010ec0ceef29956a5d70cf451b2">if(location.hash === '#tab-files') document.getElementById('tab-files').checked = true;</script>
+			<div style="float: right; margin-bottom: 1em;">
+							</div>
+
+			<p style="clear: both"></p>
+			<div style="overflow-x: auto;">
+			<table class="stdtable release-table gv">
+				<thead>
+					<tr>
+						<th class="version">Mod Version</th>
+						<th class="gameversion">For Game version</th>						<th class="downloads">Downloads</th>
+						<th class="releasedate">Released</th>
+						<th class="changelog">Changelog</th>
+						<th class="download">Download</th>
+						<th><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click mod install*</abbr></th>					</tr>
+				</thead>
+				<tbody>
+															<tr data-assetid="34904" >
+							<td>
+								1.2.3							</td>
+							<td>
+								<div class="tags">
+									<a href="/list/mod/?gv[]=1.21.0" class="tag" rel="tag">1.21.0</a>
+                  <a href="/list/mod/?gv[]=1.21.1" class="tag" rel="tag">1.21.1</a>
+                  <span class="tag">1.21.2 - 1.21.5</span>
+								</div>
+							</td>							<td>322</td>
+							<td><span title="Nov 7th 2025, 20:09:32">18 hours ago</span></td>
+							<td><label for="cl-trigger-34904" class="button square cl-trigger">Show</label></td>
+							<td><a class="button square ico-button mod-dl" href="/download/63693/Forgotten+Armory_Chinese+Dynasties+v1.2.3.zip">Forgotten Armory_Chinese Dynasties v1.2.3.zip</a></td>
+							<td><a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.2.3" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a></td>						</tr>
+												<tr><td class="collapsable cl-changelog" colspan="7">
+							<input type="checkbox" id="cl-trigger-34904" autocomplete="off">
+							<div><div><div class="release-changelog"><p>v1.2.3<br />fixed missing warmth bonuses on body and leg armors</p></div></div></div>
+						</td></tr>
+																							<tr data-assetid="34400" >
+							<td>
+								1.2.2							</td>
+							<td>
+								<div class="tags">
+																	<a href="/list/mod/?gv[]=1.21.1" class="tag" rel="tag">1.21.1</a>																	<span class="tag">1.21.2 - 1.21.5</span>
+																									</div>
+							</td>							<td>2554</td>
+							<td><span title="Oct 31st 2025, 11:46:13">Oct 31st at 11:46 AM</span></td>
+							<td><label for="cl-trigger-34400" class="button square cl-trigger">Show</label></td>
+							<td><a class="button square ico-button mod-dl" href="/download/62746/Forgotten+Armory_Chinese+Dynasties+v1.2.2.zip">Forgotten Armory_Chinese Dynasties v1.2.2.zip</a></td>
+							<td><a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.2.2" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a></td>						</tr>
+												<tr><td class="collapsable cl-changelog" colspan="7">
+							<input type="checkbox" id="cl-trigger-34400" autocomplete="off">
+							<div><div><div class="release-changelog"><p>v1.2.2<br />fixsed the recipe for Iron / Meteoric Song helmet needing steel nails and strips</p></div></div></div>
+						</td></tr>
+																							<tr data-assetid="33945" >
+							<td>
+								1.2.1							</td>
+							<td>
+								<div class="tags">
+																	<a href="/list/mod/?gv[]=1.21.0" class="tag" rel="tag">1.21.0</a>																	<a href="/list/mod/?gv[]=1.21.1" class="tag" rel="tag">1.21.1</a>																	<span class="tag">1.21.2 - 1.21.5</span>
+																									</div>
+							</td>							<td>4023</td>
+							<td><span title="Oct 25th 2025, 23:38:47">Oct 25th at 11:38 PM</span></td>
+							<td><label for="cl-trigger-33945" class="button square cl-trigger">Show</label></td>
+							<td><a class="button square ico-button mod-dl" href="/download/61834/Forgotten+Armory_Chinese+Dynasties+v1.2.1.zip">Forgotten Armory_Chinese Dynasties v1.2.1.zip</a></td>
+							<td><a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.2.1" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a></td>						</tr>
+												<tr><td class="collapsable cl-changelog" colspan="7">
+							<input type="checkbox" id="cl-trigger-33945" autocomplete="off">
+							<div><div><div class="release-changelog"><p>1.2.1<br />fixed some missing pixel on the Song Helmet</p></div></div></div>
+						</td></tr>
+																							<tr data-assetid="33625" >
+							<td>
+								1.2.0							</td>
+							<td>
+								<div class="tags">
+																	<a href="/list/mod/?gv[]=1.21.0" class="tag" rel="tag">1.21.0</a>																	<a href="/list/mod/?gv[]=1.21.1" class="tag" rel="tag">1.21.1</a>																	<span class="tag">1.21.2 - 1.21.5</span>
+																									</div>
+							</td>							<td>3078</td>
+							<td><span title="Oct 21st 2025, 18:34:28">Oct 21st at 6:34 PM</span></td>
+							<td><label for="cl-trigger-33625" class="button square cl-trigger">Show</label></td>
+							<td><a class="button square ico-button mod-dl" href="/download/61212/Forgotten+Armory_Chinese+Dynasties+v1.2.0.zip">Forgotten Armory_Chinese Dynasties v1.2.0.zip</a></td>
+							<td><a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.2.0" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a></td>						</tr>
+												<tr><td class="collapsable cl-changelog" colspan="7">
+							<input type="checkbox" id="cl-trigger-33625" autocomplete="off">
+							<div><div><div class="release-changelog"><p>v1.2.0<br />NEW MODICON<br />helmets are now ground placeable<br />Remade the helmet tops to be more "blocky"<br />Bear armor decoration variant added<br />Crafting additions - added recipes to remove decorations<br />Some handbook declutter<br />Combat Overhaul stats tweak to work with the recent CO rebalance<br />Vanilla recipes tweaks</p></div></div></div>
+						</td></tr>
+																							<tr data-assetid="31401" >
+							<td>
+								1.1.1							</td>
+							<td>
+								<div class="tags">
+																	<a href="/list/mod/?gv[]=1.21.0" class="tag" rel="tag">1.21.0</a>																	<a href="/list/mod/?gv[]=1.21.1" class="tag" rel="tag">1.21.1</a>																</div>
+							</td>							<td>10611</td>
+							<td><span title="Sep 27th 2025, 15:24:20">Sep 27th at 3:24 PM</span></td>
+							<td><label for="cl-trigger-31401" class="button square cl-trigger">Show</label></td>
+							<td><a class="button square ico-button mod-dl" href="/download/57170/Forgotten+Armory_Chinese+Dynasties+v1.1.1.zip">Forgotten Armory_Chinese Dynasties v1.1.1.zip</a></td>
+							<td><a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.1.1" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a></td>						</tr>
+												<tr><td class="collapsable cl-changelog" colspan="7">
+							<input type="checkbox" id="cl-trigger-31401" autocomplete="off">
+							<div><div><div class="release-changelog"><p>v1.1.1<br />treasure hunter now occasionaly also buys the schematics back (Thanks Arcadria!)<br />greener green color<br />internal texture changes<br />----</p></div></div></div>
+						</td></tr>
+																							<tr data-assetid="30482" >
+							<td>
+								1.1.0							</td>
+							<td>
+								<div class="tags">
+																	<a href="/list/mod/?gv[]=1.20.12" class="tag" rel="tag">1.20.12</a>																	<a href="/list/mod/?gv[]=1.21.0" class="tag" rel="tag">1.21.0</a>																	<a href="/list/mod/?gv[]=1.21.1" class="tag" rel="tag">1.21.1</a>																</div>
+							</td>							<td>5660</td>
+							<td><span title="Sep 16th 2025, 15:02:14">Sep 16th at 3:02 PM</span></td>
+							<td><label for="cl-trigger-30482" class="button square cl-trigger">Show</label></td>
+							<td><a class="button square ico-button mod-dl" href="/download/55903/Forgotten+Armory_Chinese+Dynasties+v1.1.0.zip">Forgotten Armory_Chinese Dynasties v1.1.0.zip</a></td>
+							<td><a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.1.0" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a></td>						</tr>
+												<tr><td class="collapsable cl-changelog" colspan="7">
+							<input type="checkbox" id="cl-trigger-30482" autocomplete="off">
+							<div><div><div class="release-changelog"><p>v1.1.0<br />added uk translation, thanks DeanBro!<br />Added proper reworked NATIVE compatibility with Combat Overhaul, no more CO patch needed :-)<br />---</p></div></div></div>
+						</td></tr>
+																							<tr data-assetid="30301" >
+							<td>
+								1.0.0							</td>
+							<td>
+								<div class="tags">
+																	<span class="tag">1.20.11 - 1.20.12</span>
+																										<a href="/list/mod/?gv[]=1.21.0" class="tag" rel="tag">1.21.0</a>																	<a href="/list/mod/?gv[]=1.21.1" class="tag" rel="tag">1.21.1</a>																</div>
+							</td>							<td>1993</td>
+							<td><span title="Sep 14th 2025, 16:01:58">Sep 14th at 4:01 PM</span></td>
+							<td><label for="cl-trigger-30301" class="button square cl-trigger">Show</label></td>
+							<td><a class="button square ico-button mod-dl" href="/download/55332/Forgotten+Armory_Chineese+Dynasties+v1.0.0.zip">Forgotten Armory_Chineese Dynasties v1.0.0.zip</a></td>
+							<td><a class="button square ico-button one-click-dl" href="vintagestorymodinstall://fadynasties@1.0.0" target="_blank"><abbr title="Requires game version v1.18.0-rc.1 or later, currently not supported on MacOS.">1-click install</abbr></a></td>						</tr>
+												<tr><td class="collapsable cl-changelog" colspan="7">
+							<input type="checkbox" id="cl-trigger-30301" autocomplete="off">
+							<div><div><div class="release-changelog"><p>v1.0.0<br />Initial release<br />Added Iron scale armor alternative<br />Added Meteoric Iron scale armor alternative<br />Added Steel scale armor alternative<br />Added Dynasties schematic that generates in newly generated ruins and at Treasure Trader</p></div></div></div>
+						</td></tr>
+																									</tbody>
+			</table>
+			</div>
+
+			<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript">
+			{
+				const table = document.getElementsByClassName('release-table')[0];
+				table.addEventListener('change', e => {
+					const t = e.target;
+					table.querySelector(`label[for="${t.id}"]`).textContent = t.checked ? 'Hide' : 'Show';
+				})
+			}
+			</script>
+
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+
+	<div style="clear:both;"></div>
+
+
+			<div style="clear:both;"><br></div>
+			<h3><a name="comments"></a>39 Comments <span style="font-size:70%">(<a href="#orderoldestfirst">oldest first</a> | <a href="#ordernewestfirst">newest first</a>)</span></h3>
+			<div class="comments">
+							
+									<div id="cmt-110639" class="editbox comment" data-timestamp="1762559504">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-110639">&#128172;</a>
+							<a href="/show/user/BCFBBDC44EF282A5BC78">Toonish</a>, <span title="Nov 7th 2025, 23:51:44">14 hours ago</span> (modified <span title="Nov 7th 2025, 23:52:07">14 hours ago</span>)														</div>
+						<div class="body"><p>I dont know how hard it would be but i would love it if you could make the schematics from your armor mods compatable with the schematic racks from pourposeful &lt;3 you have such nice designs on them , a shame to keep them in a chest</p></div>
+											</div>
+									<div id="cmt-110628" class="editbox comment" data-timestamp="1762553349">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-110628">&#128172;</a>
+							<a href="/show/user/BCFBBDC44EF282A5BC78">Toonish</a>, <span title="Nov 7th 2025, 22:09:09">16 hours ago</span> (modified <span title="Nov 7th 2025, 22:09:58">16 hours ago</span>)														</div>
+						<div class="body"><p>@AladarCZ damn man you work quick haha legend bro</p></div>
+											</div>
+									<div id="cmt-110595" class="editbox comment" data-timestamp="1762546190">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-110595">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Nov 7th 2025, 20:09:50">18 hours ago</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/BCFBBDC44EF282A5BC78" data-user-hash="BCFBBDC44EF282A5BC78">Toonish</a> Good catch, fixed in 1.2.3</p></div>
+											</div>
+									<div id="cmt-110590" class="editbox comment" data-timestamp="1762544744">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-110590">&#128172;</a>
+							<a href="/show/user/BCFBBDC44EF282A5BC78">Toonish</a>, <span title="Nov 7th 2025, 19:45:44">18 hours ago</span> 														</div>
+						<div class="body"><p>really nice armor mods man love them all , noticed though the bear versions of a lot of these armors didnt get the temp buff but they still recieve the movement speed nerfs , keep up the good work bro !</p></div>
+											</div>
+									<div id="cmt-108774" class="editbox comment" data-timestamp="1761911203">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-108774">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Oct 31st 2025, 11:46:43">Oct 31st at 11:46 AM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/D790E974EB9228CCDA59" data-user-hash="D790E974EB9228CCDA59">paulogabbi</a> nope, not intended. Hopefully fixed in 1.2.2<br><br>Thank you very much for the bug report!&nbsp;</p></div>
+											</div>
+									<div id="cmt-108697" class="editbox comment" data-timestamp="1761882446">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-108697">&#128172;</a>
+							<a href="/show/user/D790E974EB9228CCDA59">paulogabbi</a>, <span title="Oct 31st 2025, 03:47:26">Oct 31st at 3:47 AM</span> 														</div>
+						<div class="body"><p>so question, the iron headpiece is using steel nails, is this intended ?</p>
+<p>&nbsp;</p></div>
+											</div>
+									<div id="cmt-107865" class="editbox comment" data-timestamp="1761626606">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-107865">&#128172;</a>
+							<a href="/show/user/60C7C5219F35A510EF1A">CHUCO</a>, <span title="Oct 28th 2025, 04:43:26">Oct 28th at 4:43 AM</span> 														</div>
+						<div class="body"><p>how do i comission for some roman armor</p></div>
+											</div>
+									<div id="cmt-106861" class="editbox comment" data-timestamp="1761318708">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-106861">&#128172;</a>
+							<a href="/show/user/A346844F80B11BC07A45">DramaChris</a>, <span title="Oct 24th 2025, 15:11:48">Oct 24th at 3:11 PM</span> 														</div>
+						<div class="body"><p>Sick armors, and really cool move from PrincessCrystal to just let us all have it as well. Thank you both.</p></div>
+											</div>
+									<div id="cmt-106622" class="editbox comment" data-timestamp="1761233573">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-106622">&#128172;</a>
+							<a href="/show/user/6D48359646E10B678C1D">ChiefKrogan</a>, <span title="Oct 23rd 2025, 15:32:53">Oct 23rd at 3:32 PM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/922A98AD603BDA6D92EB" data-user-hash="922A98AD603BDA6D92EB">AladarCZ</a> ah understandable man! If you have to rely on ai and it just doesn't know what to do (which it often doesn't), that's a perfectly valid reason. Good work on the mods and godspeed with the next projects!</p></div>
+											</div>
+									<div id="cmt-106593" class="editbox comment" data-timestamp="1761225935">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-106593">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Oct 23rd 2025, 13:25:35">Oct 23rd at 1:25 PM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/6D48359646E10B678C1D" data-user-hash="6D48359646E10B678C1D">ChiefKrogan</a> Oh, well. It was getting harder and harder for me to get satisfying product for more "nieche" helmet designs. It wasnt my creation, base of the logo was always made by AI, and it simply refused to make proper models that i envisioned. Dont take me wrong, im a big advocate for it, it helped tremendously, but it just cant make proper Szyszak, Sallet, non of theese things, it mainly makes generic helmet in wild variations. So i felt for some time that the logos are getting a bit inconsistent.&nbsp;<br><br>And i was looking for another way to create them. This way it is much faster (much less editing the AI mistakes and unwanted output),i feel like its much more representative of an actual contents of the mod and its a better way to stay consistent for future mods.&nbsp;</p></div>
+											</div>
+									<div id="cmt-106588" class="editbox comment" data-timestamp="1761223549">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-106588">&#128172;</a>
+							<a href="/show/user/6D48359646E10B678C1D">ChiefKrogan</a>, <span title="Oct 23rd 2025, 12:45:49">Oct 23rd at 12:45 PM</span> 														</div>
+						<div class="body"><p>What happened? Why are you switching those awesome pixelart mod images with the basic 3d model ones? I know this is non issue but I loved the previous ones so much&nbsp;</p></div>
+											</div>
+									<div id="cmt-106115" class="editbox comment" data-timestamp="1761075428">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-106115">&#128172;</a>
+							<a href="/show/user/560CA64468D41BA01D48">DudeMcMan</a>, <span title="Oct 21st 2025, 19:37:08">Oct 21st at 7:37 PM</span> 														</div>
+						<div class="body"><p>I LOVE tHE BLOCKY HELMET TOPS</p></div>
+											</div>
+									<div id="cmt-104634" class="editbox comment" data-timestamp="1760633776">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-104634">&#128172;</a>
+							<a href="/show/user/EB11A51061F9CD8288F5">Emeron</a>, <span title="Oct 16th 2025, 16:56:16">Oct 16th at 4:56 PM</span> 														</div>
+						<div class="body"><p>Many thanks!</p></div>
+											</div>
+									<div id="cmt-104385" class="editbox comment" data-timestamp="1760557321">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-104385">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Oct 15th 2025, 19:42:01">Oct 15th at 7:42 PM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/EB11A51061F9CD8288F5" data-user-hash="EB11A51061F9CD8288F5">Emeron</a> Hmm, fair point. I kinda tried to balance it with the black bronze plates, since you need gold and silver for that , but i will try to make it more reasonable in the next patch, its comming soon i promise</p></div>
+											</div>
+									<div id="cmt-104099" class="editbox comment" data-timestamp="1760465446">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-104099">&#128172;</a>
+							<a href="/show/user/EB11A51061F9CD8288F5">Emeron</a>, <span title="Oct 14th 2025, 18:10:46">Oct 14th at 6:10 PM</span> 														</div>
+						<div class="body"><p>Firstly, thank you for your great armor mods in general and for your seemingly burning passion in developing more of them.</p>
+<p>However, on a server I am on I'm considering upgrading my steel chainmail chest piece to one of the two chinese variants, as I am playing as a Hunter. But the crafting costs is kinda mystifying to me.</p>
+<p>The Hu Guo(medium) chest piece appears to be requiring 24x5 sets of steel nails and strips, while the Yulinjun Kui(heavy) chest piece only requires 16x2 sets of steel nails and strips along with 3 black bronze plates. Given the arduous process of making steel, and then turning that into nails and especially so by using the smaller batches as the bigger one is wasteful in terms of ingot/plate materials, the medium variant seems <em><strong>prohibitively expensive</strong></em> in comparison to the heavy one.</p>
+<p>Was this intentional pricing on your part, or is it some kind of config tweak the server I am on is currently using that is at play?</p></div>
+											</div>
+									<div id="cmt-103066" class="editbox comment" data-timestamp="1760108558">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-103066">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Oct 10th 2025, 15:02:38">Oct 10th at 3:02 PM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/E97B87204F94D71AF402" data-user-hash="E97B87204F94D71AF402">SoplinDoplin</a> Eventually yes, but not really in the near future</p></div>
+											</div>
+									<div id="cmt-102957" class="editbox comment" data-timestamp="1760066251">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-102957">&#128172;</a>
+							<a href="/show/user/E97B87204F94D71AF402">SoplinDoplin</a>, <span title="Oct 10th 2025, 03:17:31">Oct 10th at 3:17 AM</span> 														</div>
+						<div class="body"><p><a class="username" href="https://mods.vintagestory.at/show/user/922A98AD603BDA6D92EB">AladarCZ</a> you probably get thhis question a lot but Is there a chance of you making a samurai Armor set, would love to see that with your skills, do have an idea for a varient of the armor so there is more then one, and one with less armor plating but more mobility.</p></div>
+											</div>
+									<div id="cmt-102128" class="editbox comment" data-timestamp="1759851368">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-102128">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Oct 7th 2025, 15:36:08">Oct 7th at 3:36 PM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/8BB1EF08E27D93BB6B13" data-user-hash="8BB1EF08E27D93BB6B13">Daneela</a> I might try to remake the in the next update<br><br><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/64E185AE41278BC2B4A7" data-user-hash="64E185AE41278BC2B4A7">DrMonkfish</a> Im now working on larger patches that tries to unify crafting system for all my mods, that includes removing colored decorations so hopefully in the next update<br><br><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/61A1E67BF54E7989554E" data-user-hash="61A1E67BF54E7989554E">Zack_D</a> Eventually i would like to add something along the lines of Conquistador armor, that could do something along the lines you are mentioning :-)&nbsp;<br><br></p></div>
+											</div>
+									<div id="cmt-102076" class="editbox comment" data-timestamp="1759837281">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-102076">&#128172;</a>
+							<a href="/show/user/64E185AE41278BC2B4A7">DrMonkfish</a>, <span title="Oct 7th 2025, 11:41:21">Oct 7th at 11:41 AM</span> 														</div>
+						<div class="body"><p>Would it be possible for this to get an update to be able to remove the dyed cloth from the armor?</p></div>
+											</div>
+									<div id="cmt-98927" class="editbox comment" data-timestamp="1758989249">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-98927">&#128172;</a>
+							<a href="/show/user/3A2B377E6FD76390D53B">filadog</a>, <span title="Sep 27th 2025, 16:07:29">Sep 27th at 4:07 PM</span> 														</div>
+						<div class="body"><p>This mod is a thing of beauty, thank you</p></div>
+											</div>
+									<div id="cmt-98434" class="editbox comment" data-timestamp="1758848007">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-98434">&#128172;</a>
+							<a href="/show/user/61A1E67BF54E7989554E">Zack_D</a>, <span title="Sep 26th 2025, 00:53:27">Sep 26th at 12:53 AM</span> 														</div>
+						<div class="body"><p>These are GORGEOUS!<br>Are there any plans on making armors along the lines of "Breastplates", as in, chest and lower-arm covering armor but nothing on the upper-arms so it shows the clothes worn underneath?</p>
+<p>&nbsp;</p></div>
+											</div>
+									<div id="cmt-97193" class="editbox comment" data-timestamp="1758527843">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-97193">&#128172;</a>
+							<a href="/show/user/8BB1EF08E27D93BB6B13">Daneela</a>, <span title="Sep 22nd 2025, 07:57:23">Sep 22nd at 7:57 AM</span> 														</div>
+						<div class="body"><p>i love these but the helmets are uncannily round, could they be made slightly more squared to fit the characters' appearance?</p></div>
+											</div>
+									<div id="cmt-96860" class="editbox comment" data-timestamp="1758457557">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-96860">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Sep 21st 2025, 12:25:57">Sep 21st at 12:25 PM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/A8A107CD89320EFBF383" data-user-hash="A8A107CD89320EFBF383">Moophan</a> It is on my long list of wishes one day :-) So hopefully one day. Thanks for the praise</p></div>
+											</div>
+									<div id="cmt-96750" class="editbox comment" data-timestamp="1758422505">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-96750">&#128172;</a>
+							<a href="/show/user/A8A107CD89320EFBF383">Moophan</a>, <span title="Sep 21st 2025, 02:41:45">Sep 21st at 2:41 AM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/922A98AD603BDA6D92EB" data-user-hash="922A98AD603BDA6D92EB">AladarCZ</a> beautiful mods is there anyway you can add compatibility with the visored helmet mod? being able to open these would be insane. thank for all the hard work &lt;3</p></div>
+											</div>
+									<div id="cmt-95931" class="editbox comment" data-timestamp="1758224764">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-95931">&#128172;</a>
+							<a href="/show/user/DE62FA55E89279E2A95E">ReclaimerGrumein</a>, <span title="Sep 18th 2025, 19:46:04">Sep 18th at 7:46 PM</span> 														</div>
+						<div class="body"><p>I, Grumein, King of Hammerdeep, request Dwarven armours!</p></div>
+											</div>
+									<div id="cmt-95117" class="editbox comment" data-timestamp="1758036481">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-95117">&#128172;</a>
+							<a href="/show/user/B478C52ACBA569A716A6">Cuddlesworth</a>, <span title="Sep 16th 2025, 15:28:01">Sep 16th at 3:28 PM</span> 														</div>
+						<div class="body"><p>@Aladarcz GIVE ME ROMAN CENTURIAN ARMOR AND MY LIFE IS YOURS</p></div>
+											</div>
+									<div id="cmt-95112" class="editbox comment" data-timestamp="1758035348">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-95112">&#128172;</a>
+							<a href="/show/user/4E6D1C1ADE816CD3C15E">Canyew</a>, <span title="Sep 16th 2025, 15:09:08">Sep 16th at 3:09 PM</span> 														</div>
+						<div class="body"><p style="text-align: left;">You are a machine doing incredible work, don't burn yourself out, take your time. These are great &#128077;</p></div>
+											</div>
+									<div id="cmt-94866" class="editbox comment" data-timestamp="1757963259">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94866">&#128172;</a>
+							<a href="/show/user/3E1AE7759C6B56E4534E">LitanyofFury</a>, <span title="Sep 15th 2025, 19:07:39">Sep 15th at 7:07 PM</span> 														</div>
+						<div class="body"><p>Love your sets! Any chance you could do Greek or Roman themed armour in the future?&nbsp;</p></div>
+											</div>
+									<div id="cmt-94733" class="editbox comment" data-timestamp="1757943935">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94733">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Sep 15th 2025, 13:45:35">Sep 15th at 1:45 PM</span> 														</div>
+						<div class="body"><p><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/CBDAF0D5E93715C64957" data-user-hash="CBDAF0D5E93715C64957">Mieczyslaw2137</a> and <a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/6D48359646E10B678C1D" data-user-hash="6D48359646E10B678C1D">ChiefKrogan</a> dont worrry guys, Hussar armor is in the works as we speak :-)&nbsp;</p></div>
+											</div>
+									<div id="cmt-94712" class="editbox comment" data-timestamp="1757941078">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94712">&#128172;</a>
+							<a href="/show/user/7F4A17278A44507EA057">yapludepatte</a>, <span title="Sep 15th 2025, 12:57:58">Sep 15th at 12:57 PM</span> 														</div>
+						<div class="body"><p>Pls&nbsp;</p>
+<p>I beg you&nbsp;</p>
+<p>Make mesoamerican, andean or north american indigenous armors plsssssss</p>
+<p>It would be sick&nbsp;</p>
+<p>And i will force the admins of the serv i play on to add it or else&nbsp;</p>
+<p>So plssss give some light to this underrated area of history&nbsp;</p></div>
+											</div>
+									<div id="cmt-94690" class="editbox comment" data-timestamp="1757934811">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94690">&#128172;</a>
+							<a href="/show/user/6D48359646E10B678C1D">ChiefKrogan</a>, <span title="Sep 15th 2025, 11:13:31">Sep 15th at 11:13 AM</span> 														</div>
+						<div class="body"><p>I just noticed you have a roadmap and hussars on them. I am very curious how that will turn out as I'm polish myself!</p></div>
+											</div>
+									<div id="cmt-94635" class="editbox comment" data-timestamp="1757914247">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94635">&#128172;</a>
+							<a href="/show/user/C8EB097EA2B98B75CCDB">Javes</a>, <span title="Sep 15th 2025, 05:30:47">Sep 15th at 5:30 AM</span> 														</div>
+						<div class="body"><p>Incredible!</p></div>
+											</div>
+									<div id="cmt-94567" class="editbox comment" data-timestamp="1757894413">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94567">&#128172;</a>
+							<a href="/show/user/6CB1D9873F77E74E74C1">Frolix</a>, <span title="Sep 15th 2025, 00:00:13">Sep 15th at 12:00 AM</span> 														</div>
+						<div class="body"><p>Amazing job,</p></div>
+											</div>
+									<div id="cmt-94503" class="editbox comment" data-timestamp="1757880505">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94503">&#128172;</a>
+							<a href="/show/user/CBDAF0D5E93715C64957">Mieczyslaw2137</a>, <span title="Sep 14th 2025, 20:08:25">Sep 14th at 8:08 PM</span> 														</div>
+						<div class="body"><p>Hussar/Polish-Lithuanian Commonwealth armory that adds Hussar armors and &#380;upans when? *troll*</p></div>
+											</div>
+									<div id="cmt-94483" class="editbox comment" data-timestamp="1757877820">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94483">&#128172;</a>
+							<a href="/show/user/9E977B010E0B7B788283">MitchHasWAP</a>, <span title="Sep 14th 2025, 19:23:40">Sep 14th at 7:23 PM</span> 														</div>
+						<div class="body"><p>awesome, now I can conquer Tsushima!</p></div>
+											</div>
+									<div id="cmt-94451" class="editbox comment" data-timestamp="1757874175">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94451">&#128172;</a>
+							<a href="/show/user/922A98AD603BDA6D92EB">AladarCZ</a> <small class="flair flair-author"></small>, <span title="Sep 14th 2025, 18:22:55">Sep 14th at 6:22 PM</span> (modified <span title="Sep 14th 2025, 18:23:31">Sep 14th at 6:23 PM</span>)														</div>
+						<div class="body"><p>Glad you like it guys :-)&nbsp;<br><br><a class="mention username mceNonEditable" href="https://mods.vintagestory.at/show/user/378EAFCE9B334ACAE84D" data-user-hash="378EAFCE9B334ACAE84D">LunaGore</a> One day im definetly not against it right now im on my mission to finish the roadmap. Some of the armors are already a bit of a fantasy, because i took some creative liberties, but i get that you are looking for something more</p></div>
+											</div>
+									<div id="cmt-94442" class="editbox comment" data-timestamp="1757873731">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94442">&#128172;</a>
+							<a href="/show/user/378EAFCE9B334ACAE84D">LunaGore</a>, <span title="Sep 14th 2025, 18:15:31">Sep 14th at 6:15 PM</span> 														</div>
+						<div class="body"><p>Would you ever consider doing fantasy armors/weapons?</p></div>
+											</div>
+									<div id="cmt-94438" class="editbox comment" data-timestamp="1757873273">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94438">&#128172;</a>
+							<a href="/show/user/D7A18AA86D7E3E7539D1">KromEverMighty</a>, <span title="Sep 14th 2025, 18:07:53">Sep 14th at 6:07 PM</span> 														</div>
+						<div class="body"><p>Please never stop cooking</p></div>
+											</div>
+									<div id="cmt-94436" class="editbox comment" data-timestamp="1757873056">
+						<div class="title">
+							<a style="text-decoration:none;" href="#cmt-94436">&#128172;</a>
+							<a href="/show/user/6D48359646E10B678C1D">ChiefKrogan</a>, <span title="Sep 14th 2025, 18:04:16">Sep 14th at 6:04 PM</span> 														</div>
+						<div class="body"><p>I love your mods &#10084;&#65039;</p></div>
+											</div>
+							</div>
+			
+			<span class="buttonlinks template">&nbsp;(<a href="#editcomment" data-commentid="0">edit comment</a> <a href="#deletecomment" data-commentid="0">delete</a>)</span>
+
+
+		
+		</main>
+	</div>
+
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/jquery.are-you-sure.js"></script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/ays-beforeunload-shim.js"></script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/jquery.cookie.js"></script>
+
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/wysiwyg.js?version=40"></script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/tinymce/tinymce.min.js"></script>
+
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/jquery.filedrop.js?v=2"></script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/datepicker.min.js"></script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/i18n/datepicker.en.js"></script>
+
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript">
+		assetid = 30299;
+		assettypeid = 1;
+		actiontoken = "";
+		
+		$(document).ready(function() {
+			$("select").each(function() {
+				if ($(this).parents(".template").length == 0) {
+					var ds = $(this).attr("noSearch") == 'noSearch';
+					$(this).chosen({ placeholder_text_multiple: " ", disable_search:ds, });
+				}
+			});
+			
+			$('form[name=form1]').areYouSure();
+		});
+
+		const MSG_CLASS_OK = 'bg-success text-success';
+		const MSG_CLASS_WARN = 'bg-warning';
+		const MSG_CLASS_ERROR = 'bg-error text-error';
+
+		const msgContainer = document.getElementById('message-container');
+		function addMessage(clazz, html, escapeMessage) {
+			escapeMessage = escapeMessage || false;
+			const msgEl = document.createElement('div');
+			msgEl.classList.add(...(clazz.split(' ')));
+			if(escapeMessage) {
+				msgEl.textContent = html;
+				const d = document.createElement('span');
+				d.classList.add('dismiss');
+				msgEl.append(d)
+			}
+			else {
+				msgEl.innerHTML = html+'<span class="dismiss"></span>';
+			}
+			msgContainer.append(msgEl);
+		}
+
+		msgContainer.addEventListener('click', function(e) {
+			let t = e.target;
+			if(!t || !t.classList.contains('dismiss')) return;
+			t = t.parentElement;
+			$(t).slideUp(400, () => t.remove());
+		})
+	</script>
+		<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript">
+		modid = 5062;
+
+		$(document).ready(function() {
+			$("a[href='#follow']").click(function() {
+				const oldCount = parseInt($(".count", $(this)).text());
+
+				let promise;
+				if ($(this).hasClass("on")) {
+					$(this).toggleClass("on off");
+					$(".count", $(this)).text("" + (oldCount - 1));
+
+					promise = $.post(`/api/v2/notifications/settings/followed-mods/${modid}/unfollow`);
+				} else {
+					$(this).toggleClass("on off");
+					$(".count", $(this)).text("" + (oldCount + 1));
+
+					promise = $.post(`/api/v2/notifications/settings/followed-mods/${modid}`, { 'new': 1 /* @hardcoded */ });
+				}
+
+				promise.fail(jqXHR => {
+					$(this).toggleClass("on off");
+					$(".count", $(this)).text("" + oldCount);
+
+					const d = JSON.parse(jqXHR.responseText);
+					addMessage(MSG_CLASS_ERROR, 'Failed to (un-)follow mod' + (d.reason ? (': '+d.reason) : '.'), true)
+				});
+			});
+		});
+	</script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/comments.js?version=14" async></script>
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/jquery.fancybox.min.js" async></script>
+	<link nonce="0cdd6010ec0ceef29956a5d70cf451b2" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script nonce="0cdd6010ec0ceef29956a5d70cf451b2" type="text/javascript" src="/web/js/fotorama.js?v=2"></script>
+
+	<footer>
+		<ul class="no-mark">
+			<li style="text-align: center;">Copyright © 2021-2025 Anego Studios | <span style="white-space: nowrap;">Currently hosting <b>4984 Mods</b></span></li>
+			<li><a href="https://www.vintagestory.at/impressum.html/">Impressum</a></li>
+			<li><a href="https://github.com/anegostudios/vsmoddb#vs-mod-db-api-docs">Json Api</a></li>
+			<li><a rel="terms-of-service" href="/terms">Terms of use</a></li>
+			<li><a rel="privacy-policy" href="https://www.vintagestory.at/privacy/">Privacy Policy</a></li>
+			<li><a rel="nofollow" href="https://www.vintagestory.at/contact/">Contact Us</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
+
