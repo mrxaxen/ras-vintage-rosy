@@ -21,7 +21,12 @@ def get_release_for_version_rest(version: str, mod_entry: RestModEntry) -> RestM
 def get_release_for_version_html(version: str, mod_entry: HtmlModEntry) -> HtmlModRelease | None:
     ver_major, ver_minor, ver_patch = [int(e) for e in version.split(".")]
     for release in mod_entry.releases:
-        if "rc" in release.compatible_version_low or (release.compatible_version_high and "rc" in release.compatible_version_high):
+        if (
+            "rc" in release.compatible_version_low or
+            "pre" in release.compatible_version_low or
+            (release.compatible_version_high and "rc" in release.compatible_version_high) or
+            (release.compatible_version_high and "pre" in release.compatible_version_high)
+        ):
             print("Release candidates are not supported, skipping..")
             continue
 
@@ -41,7 +46,7 @@ def get_release_for_version_html(version: str, mod_entry: HtmlModEntry) -> HtmlM
                 rel_ver_low_minor <= ver_minor and ver_minor <= rel_ver_high_minor,
                 rel_ver_low_patch <= ver_patch and ver_patch <= rel_ver_high_patch,
             ])
-            print("Interval ver compatible: {condition}")
+            print(f"Interval ver compatible: {condition}")
 
         if condition:
             print(f"Release candidate found for {mod_entry.name}: {release.filename}")
@@ -118,8 +123,8 @@ config = read_config()
 mod_releases: list[RestModRelease] = []
 
 def main():
-    if "rc" in config.version:
-        print("Release candidate versions are not supported, exiting..")
+    if "rc" in config.version or "pre" in config.version:
+        print("Release candidate  and pre-release versions are not supported, exiting..")
         sys.exit(0)
 
     for id in config.mods:
@@ -128,8 +133,7 @@ def main():
         if "show" in id:
             release = get_releases_html(config.version, id)
         else:
-            pass
-            #release = get_releases_rest(config.version, id)
+            release = get_releases_rest(config.version, id)
 
         if release:
             mod_releases.append(release)
