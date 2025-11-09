@@ -6,7 +6,7 @@ authors = ["mrxaxen <mrxaxen@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = "~3.13"
 pydantic = "^2.12.4"
 htmlx = "^0.0.3"
 requests = "^2.32.5"
@@ -14,9 +14,13 @@ wget = "^3.2"
 beautifulsoup4 = "^4.14.2"
 
 
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.16.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 vintage-rosy = "rosy.main:main"
+build = "rosy.pyinstaller:install"

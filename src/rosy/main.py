@@ -6,17 +6,38 @@ import sys
 
 from bs4 import BeautifulSoup
 from string import Template
+from urllib.parse import quote, urlsplit, urlunsplit
 
 from rosy.models import VSManagerConfig
 from rosy.rest_models import RestMod, RestModEntry, RestModRelease
 from rosy.html_models import HtmlModEntry, HtmlModRelease
 
+def release_exceptions(mod_entry: RestModEntry):
+    if mod_entry.name in mods_with_version_exceptions:
+        return mod_entry.releases[0]
+    return None
 
 def get_release_for_version_rest(version: str, mod_entry: RestModEntry) -> RestModRelease | None:
+    ver_major, ver_minor, ver_patch = [int(e) for e in version.split(".")]
+
     for release in mod_entry.releases:
+        if (
+            "rc" in release.tags[-1] or
+            "pre" in release.tags[-1]
+        ):
+            print("Release candidates are not supported, skipping..")
+            continue
+
+        rel_ver_major, rel_ver_minor, rel_ver_patch = [int(e) for e in release.tags[-1].split(".")]
         if version in release.tags:
             return release
-    return None # Not compatible with given version
+        if (
+            ver_major == rel_ver_major and
+            ver_minor == rel_ver_minor and
+            ver_patch >= rel_ver_patch
+        ):
+            return release
+    return release_exceptions(mod_entry)
 
 def get_release_for_version_html(version: str, mod_entry: HtmlModEntry) -> HtmlModRelease | None:
     ver_major, ver_minor, ver_patch = [int(e) for e in version.split(".")]
@@ -44,7 +65,8 @@ def get_release_for_version_html(version: str, mod_entry: HtmlModEntry) -> HtmlM
             condition = all([
                 rel_ver_low_major <= ver_major and ver_major <= rel_ver_high_major,
                 rel_ver_low_minor <= ver_minor and ver_minor <= rel_ver_high_minor,
-                rel_ver_low_patch <= ver_patch and ver_patch <= rel_ver_high_patch,
+                #rel_ver_low_patch <= ver_patch and ver_patch <= rel_ver_high_patch,
+                rel_ver_low_patch <= ver_patch,
             ])
             print(f"Interval ver compatible: {condition}")
 
@@ -60,13 +82,13 @@ def read_config() -> VSManagerConfig:
         contents = json.load(f)
         return VSManagerConfig.model_validate(contents)
 
-def get_releases_html(version: str, mod_id: str) -> HtmlModRelease | None:
+def get_releases_html(version: str, mod_id: str) -> tuple[HtmlModEntry, HtmlModRelease | None]:
     url=mod_html_url.substitute({"modid": mod_id})
     print(f"Checking for releases @ {url}")
     response = requests.get(url)
     soup = BeautifulSoup(response.text)
     table = soup.find("table", class_="stdtable release-table gv")
-    mod_name = soup.find("h2").find_all("span")[1].getText()
+    mod_name = soup.find("h2").find_all("span")[1].getText().strip()
     release_rows = table.find_all("tr", attrs={"data-assetid": True})
 
     releases = []
@@ -99,28 +121,34 @@ def get_releases_html(version: str, mod_id: str) -> HtmlModRelease | None:
         releases=releases
     )
 
-    return get_release_for_version_html(version, mod_entry)
+    return mod_entry, get_release_for_version_html(version, mod_entry)
 
-def get_releases_rest(version: str, mod_id: str) -> RestModRelease | None:
+def get_releases_rest(version: str, mod_id: str) -> tuple[RestModEntry | None, RestModRelease | HtmlModRelease | None]:
     print(f"Getting release info for mod: {mod_id}")
     response = requests.get(url=mod_endpoint_url.substitute({"modid": mod_id}))
     mod = RestMod.model_validate_json(response.text,extra="ignore")
+    mod_entry = mod.mod
+
+    release = None
     if mod.statuscode == "200":
         assert mod.mod
         release = get_release_for_version_rest(version, mod.mod)
-    else:
-        print(f"{mod_id} status_code: {mod.statuscode}")
-        print(f"Attempting HTML based retrival for {mod_id}")
-        release = get_releases_html(version, mod_id)
 
-    return release
+    if mod.statuscode != "200" or release is None:
+        print(f"{mod_id} status_code: {mod.statuscode}, release candidtate not found.")
+        print(f"Attempting HTML based retrival for {mod_id}")
+        mod_entry, release = get_releases_html(version, mod_id)
+
+    return mod_entry, release
 
 mod_domain = "https://mods.vintagestory.at"
 mod_endpoint_url= Template(f"{mod_domain}/api/mod/$modid")
 mod_html_url = Template(f"{mod_domain}/$modid#tab-files")
-
+mods_with_version_exceptions = [
+    "Canoe Mod"
+]
 config = read_config()
-mod_releases: list[RestModRelease] = []
+mod_releases: list[tuple[HtmlModEntry|RestModEntry, HtmlModRelease | RestModRelease | None]] = []
 
 def main():
     if "rc" in config.version or "pre" in config.version:
@@ -131,19 +159,31 @@ def main():
         release = None
         print("#################################")
         if "show" in id:
-            release = get_releases_html(config.version, id)
+            mod_entry, release = get_releases_html(config.version, id)
         else:
-            release = get_releases_rest(config.version, id)
+            mod_entry, release = get_releases_rest(config.version, id)
 
-        if release:
-            mod_releases.append(release)
+        mod_releases.append((mod_entry, release))
 
     if not os.path.isdir(config.download_folder):
         os.mkdir(config.download_folder)
 
-    for release in mod_releases:
-        print(f"Downloading: {release.filename} from: {release.mainfile}")
-        wget.download(release.mainfile, out=f"{config.download_folder}/{release.filename}")
+    for _, release in mod_releases:
+        if release:
+
+            parts = urlsplit(release.mainfile)
+            encoded_path = quote(parts.path)
+            encoded_query = quote(parts.query)
+            encoded_fragment = quote(parts.fragment)
+            encoded_url = urlunsplit((parts.scheme, parts.netloc, parts.path, encoded_query, encoded_fragment))
+
+            print(f"Downloading: {release.filename} from: {encoded_url}")
+            wget.download(encoded_url, out=f"{config.download_folder}/{release.filename}")
+
+    for mod_entry, release in mod_releases:
+        if not release:
+            #print(f"Mod: {mod_entry.name} download: {"FAILED" if not release else "SUCCESS"}")
+            print(f"Mod: {mod_entry.name} download: FAILED")
 
 if __name__ == "__main__":
     main()
