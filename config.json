@@ -1,6 +1,6 @@
 {
   "version": "1.20.12",
-  "download_folder": "./modpacks",
+  "download_folder": "./data/Mods",
   "mods": [
     "aculinaryartillery",
     "alchemy",
@@ -102,6 +102,7 @@
     "show/mod/22970",
     "show/mod/22697",
     "show/mod/22299",
-    "show/mod/22070"
+    "show/mod/22070",
+    "show/mod/18932"
   ]
 }
